@@ -1221,8 +1221,10 @@ blockquote h6, blockquotenospace h6, blockquoteright h6, blockquoterightnospace 
   z-index: 999;
 
   width: max-content;
-  top: 0;
-  right: 2em;
+  top: calc(100% + 0.5rem);
+  left: 50%;
+  right: auto;
+  transform: translateX(-50%);
   transition: all .5s ease;
   opacity:0;
 }
