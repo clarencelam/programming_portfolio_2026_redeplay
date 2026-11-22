@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/programming_portfolio_2026_redeplay/',
+  base: '/programming_portfolio_2026_redeploy/',
 })
